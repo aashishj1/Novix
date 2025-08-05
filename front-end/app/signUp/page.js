@@ -20,7 +20,7 @@ function page() {
       </div>
 
       {/* Right Side */}
-      <div className="w-1/2 flex items-center justify-center">
+      <div className="w-1/2 flex items-center justify-center m-[20px]">
         <div className="bg-white shadow-lg rounded-[40px] px-10 py-12 w-[400px]">
           <h2 className="text-center text-3xl font-medium mb-1">Hi There!</h2>
           <h1 className="text-center text-3xl font-bold mb-1">Welcome Back</h1>

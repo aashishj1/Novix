@@ -4,7 +4,7 @@ const VideoSection = () => {
   return (
     <section className="w-full flex justify-center items-center py-4 bg-white">
       <video
-        className="w-[95%] h-auto object-cover border-4 border-green-900 rounded-md shadow-md"
+        className="w-[85%] h-auto object-cover border-4 border-green-900 rounded-md shadow-md"
         autoPlay
         muted
         loop

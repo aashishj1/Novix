@@ -26,10 +26,6 @@ const ContactForm = () => {
       <div className="relative max-w-7xl mx-auto px-6 sm:px-12 py-16">
         {/* Top Banner / Hero */}
         <div className="w-full bg-gradient-to-r from-emerald-600 to-teal-600 text-white text-center py-8 rounded-2xl shadow-xl mb-16">
-          <div className="inline-flex items-center gap-3 bg-white/20 px-6 py-2 rounded-full text-sm font-semibold mb-4">
-            <Sparkles className="w-4 h-4" />
-            We're Here For You
-          </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 leading-tight">
             Hey, We Are There For You Only
           </h1>
@@ -41,14 +37,14 @@ const ContactForm = () => {
 
         {/* Get In Touch Section */}
         <section className="text-center mb-20">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
+          <h2 className="text-3xl md:text-6xl font-bold mb-4">Get In Touch</h2>
           <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
             Have questions, feedback, or need support? Reach out to us, and
             we'll get back to you ASAP.
           </p>
 
           {/* Form UI */}
-          <div className="max-w-xl mx-auto bg-white rounded-2xl p-8 md:p-10 shadow-2xl border border-gray-100 space-y-6">
+          <div className="max-w-4xl mx-auto bg-white rounded-2xl p-8 md:p-10 shadow-2xl border border-gray-100 space-y-6">
             <div className="relative">
               <input
                 type="text"

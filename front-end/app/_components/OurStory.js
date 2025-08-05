@@ -41,7 +41,7 @@ const OurStory = () => {
 
         {/* A Shared Journey Section */}
         <section className="mb-20 max-w-5xl mx-auto">
-          <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-xl border border-white/20">
+          <div className=" rounded-3xl p-8 md:p-12 border-white/20">
             <div className="flex items-center justify-center gap-2 mb-6">
               <Heart className="w-6 h-6 text-pink-500" />
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
@@ -76,7 +76,7 @@ const OurStory = () => {
 
         {/* Our Story, Your Story Section */}
         <section className="mb-20 max-w-5xl mx-auto">
-          <div className="bg-gradient-to-r from-pink-50 to-rose-50 rounded-3xl p-8 md:p-12 shadow-xl border border-pink-100">
+          <div className=" p-8 md:p-12">
             <div className="flex items-center justify-center gap-2 mb-6">
               <Star className="w-6 h-6 text-rose-500 fill-current" />
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
@@ -138,68 +138,68 @@ const OurStory = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Card 1 */}
-            <div className="group relative bg-gradient-to-br from-emerald-600 to-emerald-700 p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 text-white overflow-hidden">
+            <div className="group relative  p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 text-white overflow-hidden">
               <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -translate-y-10 translate-x-10"></div>
               <div className="relative z-10">
                 <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <Users className="w-6 h-6 text-white" />
+                  <Users className="w-6 h-6 text-black" />
                 </div>
-                <h3 className="font-bold text-xl mb-4">
+                <h3 className="font-bold text-xl mb-4 text-black">
                   A Partnership in Progress
                 </h3>
-                <p className="text-emerald-100 leading-relaxed mb-6">
+                <p className="text-black leading-relaxed mb-6">
                   Discover a transformative experience with therapy sessions
                   designed specifically for your unique path. Our experts don't
                   just treat symptoms—they empower you with the tools to rewrite
                   your narrative.
                 </p>
                 <div className="flex items-center text-white/80 group-hover:text-white transition-colors">
-                  <span className="text-sm font-medium">Learn More</span>
-                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                  <span className="text-sm font-medium text-purple-700">Learn More</span>
+                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform text-purple-700" />
                 </div>
               </div>
             </div>
 
             {/* Card 2 */}
-            <div className="group relative bg-gradient-to-br from-pink-500 to-rose-600 p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 text-white overflow-hidden">
+            <div className="group relative  p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 text-white overflow-hidden">
               <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -translate-y-10 translate-x-10"></div>
               <div className="relative z-10">
                 <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <Lightbulb className="w-6 h-6 text-white" />
+                  <Lightbulb className="w-6 h-6 text-black" />
                 </div>
-                <h3 className="font-bold text-xl mb-4">
+                <h3 className="font-bold text-xl mb-4 text-black">
                   Innovative Self-Help Tools
                 </h3>
-                <p className="text-pink-100 leading-relaxed mb-6">
+                <p className="leading-relaxed mb-6 text-black">
                   Access cutting-edge digital tools and resources designed to
                   support your mental wellness journey. From mood tracking to
                   guided meditations, we provide everything you need to thrive.
                 </p>
                 <div className="flex items-center text-white/80 group-hover:text-white transition-colors">
-                  <span className="text-sm font-medium">Explore Tools</span>
-                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                  <span className="text-sm font-medium text-purple-700">Explore Tools</span>
+                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform text-purple-700" />
                 </div>
               </div>
             </div>
 
             {/* Card 3 */}
-            <div className="group relative bg-gradient-to-br from-emerald-600 to-emerald-700 p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 text-white overflow-hidden">
+            <div className="group relative p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 text-white overflow-hidden">
               <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -translate-y-10 translate-x-10"></div>
               <div className="relative z-10">
                 <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <Shield className="w-6 h-6 text-white" />
+                  <Shield className="w-6 h-6 text-black" />
                 </div>
-                <h3 className="font-bold text-xl mb-4">
+                <h3 className="font-bold text-xl mb-4 text-black">
                   Inspiring Community & Learning
                 </h3>
-                <p className="text-emerald-100 leading-relaxed mb-6">
+                <p className="leading-relaxed mb-6 text-black">
                   Join a supportive community of individuals on similar
                   journeys. Share experiences, learn from others, and grow
                   together in a safe, judgment-free environment.
                 </p>
                 <div className="flex items-center text-white/80 group-hover:text-white transition-colors">
-                  <span className="text-sm font-medium">Join Community</span>
-                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                  <span className="text-sm font-medium text-purple-700">Join Community</span>
+                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform text-purple-700" />
                 </div>
               </div>
             </div>

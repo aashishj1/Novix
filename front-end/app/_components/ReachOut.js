@@ -1,5 +1,4 @@
-// ReachOut.jsx
-import React from 'react';
+import React from "react";
 
 const ReachOut = () => {
   return (
@@ -8,25 +7,28 @@ const ReachOut = () => {
       <div className="absolute top-0 left-0 w-2 bg-pink-300 h-full"></div>
 
       {/* Main Content */}
-      <div className="relative flex flex-col items-center">
+      <div className="relative flex flex-col items-center w-full">
         {/* Text */}
-        <div className="text-center z-10 font-extrabold text-4xl md:text-5xl lg:text-6xl text-green-900 tracking-wide" style={{ 
-          fontFamily: 'cursive',
-          textShadow: '2px 2px 0 #00000010',
-          whiteSpace: 'pre-line',
-          lineHeight: '1.2',
-        }}>
+        <div
+          className="text-center z-10 font-extrabold text-5xl md:text-6xl lg:text-8xl text-green-900 tracking-wide"
+          style={{
+            fontFamily: "cursive",
+            textShadow: "2px 2px 0 #00000010",
+            whiteSpace: "pre-line",
+            lineHeight: "1.2",
+          }}
+        >
           DON'T{"\n"}HESITATE{"\n"}TO REACH{"\n"}OUT
         </div>
 
-        {/* Face */}
-        <div className="relative w-[400px] h-[200px] mt-[-30px] overflow-hidden rounded-t-full border-[3px] border-black bg-[#e12473]">
+        {/* Full-width Semi-circle Face */}
+        <div className="relative w-[90%] h-[300px] mt-[-40px] overflow-hidden rounded-t-[100%] border-t-[3px] border-x-[3px] border-black bg-[#e12473] flex justify-center">
           {/* Eyes */}
-          <div className="absolute left-[110px] top-[50px] w-[40px] h-[60px] bg-white rounded-full border border-black flex items-center justify-center">
-            <div className="w-[15px] h-[15px] bg-black rounded-full"></div>
+          <div className="absolute top-[70px] left-[calc(50%-80px)] w-[50px] h-[70px] bg-white rounded-full border border-black flex items-center justify-center">
+            <div className="w-[20px] h-[20px] bg-black rounded-full"></div>
           </div>
-          <div className="absolute left-[240px] top-[50px] w-[40px] h-[60px] bg-white rounded-full border border-black flex items-center justify-center">
-            <div className="w-[15px] h-[15px] bg-black rounded-full"></div>
+          <div className="absolute top-[70px] left-[calc(50%+30px)] w-[50px] h-[70px] bg-white rounded-full border border-black flex items-center justify-center">
+            <div className="w-[20px] h-[20px] bg-black rounded-full"></div>
           </div>
         </div>
       </div>

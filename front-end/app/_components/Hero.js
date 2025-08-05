@@ -14,7 +14,7 @@ function Hero() {
     <section className="bg-white text-center py-16 px-4">
       {/* Title */}
       <h1
-        className={`${londrina.className} text-7xl  font-bold tracking-tight leading-tight  mx-auto text-black`}
+        className={`${londrina.className} text-9xl  font-bold tracking-tight leading-tight  mx-auto text-black`}
       >
         TAKE CONTROL OF YOUR <br />
         MENTAL <span className="font-sans font-black text-black">
@@ -22,7 +22,7 @@ function Hero() {
         </span>{" "}
         WITH
         <br />
-        <span className="text-3xl md:text-4xl mt-2 inline-block font-bold tracking-widest">
+        <span className="text-3xl md:text-9xl mt-2 inline-block font-bold tracking-widest">
           NOVIX
         </span>
       </h1>
@@ -34,9 +34,9 @@ function Hero() {
       </p>
 
       {/* Illustration Cards */}
-      <div className="flex flex-col md:flex-row justify-center items-center gap-11 mt-12">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-24 mt-12">
         <div
-          className="w-[240px] h-[71vh] overflow-hidden rounded-t-full shadow-lg transition-transform duration-300 hover:-translate-y-12 cursor-pointer"
+          className="w-[340px] h-[97vh] overflow-hidden rounded-t-full shadow-lg transition-transform duration-300 hover:-translate-y-12 cursor-pointer"
           onMouseEnter={() => console.log("message")}
         >
           <Image
@@ -48,7 +48,7 @@ function Hero() {
           />
         </div>
 
-        <div className="w-[240px] h-[71vh] overflow-hidden rounded-t-full shadow-lg transition-transform duration-300 hover:-translate-y-12 cursor-pointer">
+        <div className="w-[340px] h-[97vh] overflow-hidden rounded-t-full shadow-lg transition-transform duration-300 hover:-translate-y-12 cursor-pointer">
           <Image
             src="/door.jpg"
             alt="Alt text"
@@ -57,7 +57,7 @@ function Hero() {
             className="object-cover w-full h-full"
           />
         </div>
-        <div className="w-[240px] h-[71vh] overflow-hidden rounded-t-full shadow-lg transition-transform duration-300 hover:-translate-y-12 cursor-pointer">
+        <div className="w-[340px] h-[97vh] overflow-hidden rounded-t-full shadow-lg transition-transform duration-300 hover:-translate-y-12 cursor-pointer">
           <Image
             src="/study.jpg"
             alt="Alt text"

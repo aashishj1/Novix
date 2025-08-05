@@ -39,8 +39,8 @@ const therapists = [
 export default function TherapistSection() {
   return (
     <section className="py-16 bg-white">
-      <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-gray-800 mb-10 text-center">
+      <div className="max-w-6xl px-4">
+        <h2 className="text-3xl font-bold text-gray-800 mb-10 ">
           Meet Our Therapists
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
@@ -57,9 +57,6 @@ export default function TherapistSection() {
                     height={120}
                     className="rounded-full object-cover"
                   />
-                  <p className="text-white mt-4 text-center">
-                    {therapist.name}
-                  </p>
                 </div>
               ))
             : "Loading..."}

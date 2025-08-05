@@ -28,7 +28,7 @@ export default function PartnerSection() {
   return (
     <section className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-10">Our Partners</h2>
+        <h2 className="text-5xl font-bold text-gray-800 mb-10">Our Partners</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-center">
           {partners.map((partner, index) => (
             <div key={index} className="flex justify-center items-center">
