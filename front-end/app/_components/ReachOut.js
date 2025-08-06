@@ -1,18 +1,26 @@
 import React from "react";
+import {
+  Rubik_Bubbles,
+  Plus_Jakarta_Sans,
+  Nunito_Sans,
+} from "next/font/google";
+
+const rubik = Rubik_Bubbles({
+  subsets: ["latin"],
+  weight: "400", // or the specific weight you're using, check Google Fonts
+});
 
 const ReachOut = () => {
   return (
-    <div className="min-h-screen bg-white flex items-center justify-center relative overflow-hidden">
+    <div className="min-h-screen  flex items-center justify-center relative overflow-hidden">
       {/* Left pink bar */}
-      <div className="absolute top-0 left-0 w-2 bg-pink-300 h-full"></div>
 
       {/* Main Content */}
       <div className="relative flex flex-col items-center w-full">
         {/* Text */}
         <div
-          className="text-center z-10 font-extrabold text-5xl md:text-6xl lg:text-8xl text-green-900 tracking-wide"
+          className={`text-center z-10 font-extrabold text-5xl md:text-6xl lg:text-8xl text-green-900 tracking-wide ${rubik.className}`}
           style={{
-            fontFamily: "cursive",
             textShadow: "2px 2px 0 #00000010",
             whiteSpace: "pre-line",
             lineHeight: "1.2",

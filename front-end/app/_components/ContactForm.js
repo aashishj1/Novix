@@ -13,15 +13,7 @@ import {
 
 const ContactForm = () => {
   return (
-    <div className="relative w-full bg-gradient-to-br from-white via-gray-50 to-blue-50 text-gray-900 overflow-hidden">
-      {/* Background Decorative Elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-200/30 to-indigo-300/30 rounded-full blur-3xl"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-br from-emerald-200/30 to-teal-300/30 rounded-full blur-3xl"></div>
-        <div className="absolute top-20 left-1/4 w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
-        <div className="absolute bottom-32 right-1/4 w-3 h-3 bg-emerald-400 rounded-full animate-pulse delay-1000"></div>
-      </div>
-
+    <div className="relative w-full text-gray-900 overflow-hidden">
       {/* Main Content Wrapper */}
       <div className="relative max-w-7xl mx-auto px-6 sm:px-12 py-16">
         {/* Top Banner / Hero */}
@@ -44,7 +36,7 @@ const ContactForm = () => {
           </p>
 
           {/* Form UI */}
-          <div className="max-w-4xl mx-auto bg-white rounded-2xl p-8 md:p-10 shadow-2xl border border-gray-100 space-y-6">
+          <div className="max-w-4xl mx-auto  rounded-2xl p-8 md:p-10 border border-gray-700 space-y-6">
             <div className="relative">
               <input
                 type="text"
@@ -54,7 +46,7 @@ const ContactForm = () => {
               />
               <label
                 htmlFor="name"
-                className="absolute left-4 -top-2.5 text-gray-600 text-sm bg-white px-1 transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-blue-600"
+                className="absolute left-4 -top-2.5 text-gray-600 text-sm  px-1 transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-blue-600"
               >
                 WHAT’S YOUR NAME ?
               </label>
@@ -68,7 +60,7 @@ const ContactForm = () => {
               />
               <label
                 htmlFor="email"
-                className="absolute left-4 -top-2.5 text-gray-600 text-sm bg-white px-1 transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-blue-600"
+                className="absolute left-4 -top-2.5 text-gray-600 text-sm  px-1 transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-blue-600"
               >
                 WHAT’S YOUR EMAIL? *
               </label>
@@ -82,7 +74,7 @@ const ContactForm = () => {
               />
               <label
                 htmlFor="mobile"
-                className="absolute left-4 -top-2.5 text-gray-600 text-sm bg-white px-1 transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-blue-600"
+                className="absolute left-4 -top-2.5 text-gray-600 text-sm  px-1 transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-blue-600"
               >
                 WHAT’S YOUR MOBILE NUMBER ?
               </label>
@@ -96,7 +88,7 @@ const ContactForm = () => {
               />
               <label
                 htmlFor="category"
-                className="absolute left-4 -top-2.5 text-gray-600 text-sm bg-white px-1 transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-blue-600"
+                className="absolute left-4 -top-2.5 text-gray-600 text-sm  px-1 transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-blue-600"
               >
                 WHAT’S YOUR CATEGORY ?
               </label>
@@ -110,14 +102,16 @@ const ContactForm = () => {
               />
               <label
                 htmlFor="query"
-                className="absolute left-4 -top-2.5 text-gray-600 text-sm bg-white px-1 transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-blue-600"
+                className="absolute left-4 -top-2.5 text-gray-600 text-sm  px-1 transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-blue-600"
               >
                 DESCRIBE YOUR QUERY ?
               </label>
             </div>
-            <button className="mt-6 w-full px-8 py-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-xl font-semibold text-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2">
-              <Send className="w-5 h-5" /> Send Message
-            </button>
+            <div className="flex justify-center items-center">
+              <button className="mt-6 w-[20vw] px-8 py-4 bg-[#00a550] text-white rounded-xl font-semibold text-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2">
+                <Send className="w-5 h-5" /> Send Message
+              </button>
+            </div>
           </div>
         </section>
 
@@ -132,7 +126,7 @@ const ContactForm = () => {
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Mail className="w-8 h-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Email</h3>
+              <h3 className="text-3xl font-bold mb-2">Email</h3>
               <p className="text-gray-600 leading-relaxed">
                 Contact us by email and we'll respond shortly. We aim to reply
                 within 24 hours.
@@ -143,7 +137,7 @@ const ContactForm = () => {
               <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Phone className="w-8 h-8 text-emerald-600" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Phone No</h3>
+              <h3 className="text-3xl font-bold mb-2">Phone No</h3>
               <p className="text-gray-600 leading-relaxed">
                 Call us on weekdays from 9 AM to 5 PM (EST) for immediate
                 assistance.
@@ -154,7 +148,7 @@ const ContactForm = () => {
               <div className="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="w-8 h-8 text-rose-600" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Address</h3>
+              <h3 className="text-3xl font-bold mb-2">Address</h3>
               <p className="text-gray-600 leading-relaxed">
                 We are not accepting any personal office visits at this time.
                 All support is online.

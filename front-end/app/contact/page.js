@@ -5,7 +5,7 @@ import ContactForm from "../_components/ContactForm";
 
 function page() {
   return (
-    <div>
+    <div className="bg-[#F8F5F0]">
       <ReachOut />
       <OurStory />
       <ContactForm />
