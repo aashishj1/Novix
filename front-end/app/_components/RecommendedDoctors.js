@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import ToggleSwitch from "./ToggleSwitch";
 
 const doctors = [
   {
@@ -36,18 +37,11 @@ const RecommendedDoctors = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-8 px-6 py-12">
       {/* Left Card */}
-      <div className="bg-[#0F2C24] text-white rounded-[32px] p-6 w-full max-w-5xl">
+      <div className="bg-[#053F23] text-white rounded-[32px] p-6 w-full max-w-5xl">
         {/* Header */}
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-2xl font-semibold">Recommended</h2>
-          <div className="flex gap-2">
-            <span className="w-8 h-8 bg-pink-600 text-white rounded-full flex items-center justify-center font-bold text-sm">
-              R
-            </span>
-            <span className="w-8 h-8 bg-white text-black rounded-full flex items-center justify-center font-bold text-sm">
-              T
-            </span>
-          </div>
+          <ToggleSwitch />
         </div>
 
         {/* Doctor Cards */}
@@ -114,7 +108,7 @@ const RecommendedDoctors = () => {
           alt="3D Doctor"
           width={200}
           height={600}
-          className="object-contain"
+          className="h-[700px] w-auto object-contain"
         />
       </div>
     </div>

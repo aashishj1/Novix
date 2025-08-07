@@ -5,7 +5,7 @@ import React from "react";
 
 const TherapistBanner = () => {
   return (
-    <div className="w-full px-4 py-12 text-center bg-white">
+    <div className="w-full px-4 py-12 text-center bg-[#F7F5F1]">
       {/* Headline */}
       <h1 className="text-3xl md:text-7xl font-extrabold leading-tight text-black">
         FIND YOUR SAFE SPACE WITH <br />
@@ -30,7 +30,7 @@ const TherapistBanner = () => {
       </div>
 
       {/* Caption */}
-      <p className="mt-4 text-gray-700 text-sm">50+ Doctor</p>
+      <p className="mt-4 text-gray-700 text-sm relative left-[-40rem] top-[-69px]">50+ Doctor</p>
     </div>
   );
 };
