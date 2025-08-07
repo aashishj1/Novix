@@ -26,7 +26,7 @@ const ReachOut = () => {
             lineHeight: "1.2",
           }}
         >
-          DON'T{"\n"}HESITATE{"\n"}TO REACH{"\n"}OUT
+          DON&apos;T{"\n"}HESITATE{"\n"}TO REACH{"\n"}OUT
         </div>
 
         {/* Full-width Semi-circle Face */}

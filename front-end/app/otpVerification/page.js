@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useRef, useState } from "react";
 
-const page = () => {
+const Page = () => {
   const [otp, setOtp] = useState(new Array(4).fill(""));
   const inputRefs = useRef([]);
 
@@ -42,7 +42,7 @@ const page = () => {
   };
 
   return (
-    <div className="flex h-screen font-['Nunito_Sans'] bg-[#F2ECE2]">
+    <div className="flex h-screen  bg-[#F2ECE2]">
       {/* Left Image Section */}
       <div className="flex flex-col justify-between px-10 py-8 w-1/2 relative">
         <div>
@@ -106,4 +106,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -3,7 +3,7 @@ import ReachOut from "../_components/ReachOut";
 import OurStory from "../_components/OurStory";
 import ContactForm from "../_components/ContactForm";
 
-function page() {
+function Page() {
   return (
     <div className="bg-[#F8F5F0]">
       <ReachOut />
@@ -13,4 +13,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

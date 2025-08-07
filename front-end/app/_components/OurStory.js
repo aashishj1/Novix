@@ -36,9 +36,9 @@ const OurStory = () => {
             </div>
 
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-              At Novix, we believe that mental well-being isn't just a
-              service—it's a shared journey. We're not here to stand apart from
-              you; we're here to walk beside you every step of the way. Novix is
+              At Novix, we believe that mental well-being isn&apos;t just a
+              service—it&apos;s a shared journey. We&apos;re not here to stand apart from
+              you; we&apos;re here to walk beside you every step of the way. Novix is
               your brand, built on trust, empathy, and a genuine passion for
               transformation. Together, we create a space where every challenge
               is met with understanding and every victory is celebrated as a
@@ -78,9 +78,9 @@ const OurStory = () => {
 
             <div className="bg-white/80 rounded-2xl p-6 mb-6">
               <p className="text-lg text-gray-700 italic">
-                "When you choose Novix, you're not just selecting a service;
-                you're becoming a part of a community that writes its own story,
-                where every chapter is filled with hope and transformation."
+                &quot;When you choose Novix, you&apos;re not just selecting a service;
+                you&apos;re becoming a part of a community that writes its own story,
+                where every chapter is filled with hope and transformation.&quot;
               </p>
             </div>
 
@@ -132,7 +132,7 @@ const OurStory = () => {
                 </h3>
                 <p className="text-white leading-relaxed mb-6">
                   Discover a transformative experience with therapy sessions
-                  designed specifically for your unique path. Our experts don't
+                  designed specifically for your unique path. Our experts don&apos;t
                   just treat symptoms—they empower you with the tools to rewrite
                   your narrative.
                 </p>

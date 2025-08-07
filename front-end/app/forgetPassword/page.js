@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-function page() {
+function Page() {
   return (
-    <div className="w-full h-screen flex font-['Nunito_Sans'] bg-[#F2ECE2]">
+    <div className="w-full h-screen flex bg-[#F2ECE2]">
       {/* Left Side */}
       <div className="flex flex-col justify-between px-10 py-8 w-1/2 relative">
         <div>
@@ -22,7 +22,7 @@ function page() {
       {/* Right Side */}
       <div className="w-1/2 flex items-center justify-center">
         <div className="bg-white shadow-lg rounded-[40px] px-10 py-12 w-[400px]">
-          <h2 className="text-center text-3xl font-medium mb-1">it's normal</h2>
+          <h2 className="text-center text-3xl font-medium mb-1">it&apos;s normal</h2>
           <h1 className="text-center text-3xl font-bold mb-1">to forget</h1>
           <p className="text-center text-sm text-gray-600 mb-6">
             Enter your email or phone number to <br /> send the OTP code
@@ -57,4 +57,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

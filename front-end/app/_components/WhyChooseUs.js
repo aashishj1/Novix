@@ -61,8 +61,8 @@ export default function WhyChooseUs() {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            We're committed to providing exceptional mental health support
-            that's accessible, personalized, and designed with your wellbeing at
+            We&apos;re committed to providing exceptional mental health support
+            that&apos;s accessible, personalized, and designed with your wellbeing at
             the center of everything we do.
           </p>
         </div>

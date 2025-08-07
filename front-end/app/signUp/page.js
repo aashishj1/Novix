@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-function page() {
+function Page() {
   return (
-    <div className="w-full min-h-screen flex font-['Nunito_Sans'] bg-[#F2ECE2]">
+    <div className="w-full min-h-screen flex bg-[#F2ECE2]">
       {/* Left Side */}
       <div className="flex flex-col justify-between px-10 py-8 w-1/2 relative">
         <div>
@@ -120,7 +120,7 @@ function page() {
 
           {/* Sign Up Prompt */}
           <p className="text-center text-sm mt-6">
-            Don’t have an account?{" "}
+            Don&apos;t have an account?{" "}
             <span className="text-[#1A3E2F] italic underline font-bold cursor-pointer">
               Sign Up
             </span>
@@ -131,4 +131,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

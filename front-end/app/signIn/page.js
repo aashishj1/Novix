@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-function page() {
+function Page() {
   return (
-    <div className="w-full h-screen flex font-['Nunito_Sans'] bg-[#F2ECE2]">
+    <div className="w-full h-screen flex  bg-[#F2ECE2]">
       {/* Left Side */}
       <div className="flex flex-col justify-between px-10 py-8 w-1/2 relative">
         <div>
@@ -105,4 +105,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

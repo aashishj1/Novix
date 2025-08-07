@@ -22,7 +22,7 @@ const ContactForm = () => {
             Hey, We Are There For You Only
           </h1>
           <p className="text-emerald-100 text-lg max-w-2xl mx-auto">
-            Your well-being is our priority. Reach out anytime, we're ready to
+            Your well-being is our priority. Reach out anytime, we&apos;tre ready to
             listen.
           </p>
         </div>
@@ -32,7 +32,7 @@ const ContactForm = () => {
           <h2 className="text-3xl md:text-6xl font-bold mb-4">Get In Touch</h2>
           <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
             Have questions, feedback, or need support? Reach out to us, and
-            we'll get back to you ASAP.
+            we&apos;tll get back to you ASAP.
           </p>
 
           {/* Form UI */}
@@ -128,7 +128,7 @@ const ContactForm = () => {
               </div>
               <h3 className="text-3xl font-bold mb-2">Email</h3>
               <p className="text-gray-600 leading-relaxed">
-                Contact us by email and we'll respond shortly. We aim to reply
+                Contact us by email and we&apos;ll respond shortly. We aim to reply
                 within 24 hours.
               </p>
             </div>

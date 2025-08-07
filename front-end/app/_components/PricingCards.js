@@ -145,7 +145,7 @@ export default function PricingCards() {
         {/* Bottom CTA */}
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-4">
-            Need a custom solution? We've got you covered.
+            Need a custom solution? We&apos;ve got you covered.
           </p>
           <button className="text-emerald-600 hover:text-emerald-700 font-semibold underline underline-offset-4 hover:underline-offset-8 transition-all duration-200">
             Contact us for enterprise pricing
