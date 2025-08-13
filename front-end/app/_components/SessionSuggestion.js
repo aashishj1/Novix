@@ -3,19 +3,13 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const suggestions = [
-  { label: "couple", image: "/couple-1.jpg" },
-  { label: "family", image: "/family.jpg" },
-  { label: "group", image: "/group.jpg" },
-];
-
-export default function SessionSuggestion() {
+export default function SessionSuggestion({ suggestions }) {
   const [selected, setSelected] = useState("couple");
 
   return (
     <div className="flex gap-9 p-6 items-start max-w-4xl mx-auto">
       {/* Continue Previous Card */}
-      <div className="w-56 h-72 bg-[#FEEFEF] rounded-3xl p-4 flex flex-col justify-between shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <div className="w-64 h-72 bg-[#FEEFEF] rounded-3xl p-4 flex flex-col justify-between shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 relative right-[70px]">
         <div>
           <p className="text-sm text-gray-500 font-medium tracking-wide uppercase">
             Continue Previous
@@ -36,7 +30,7 @@ export default function SessionSuggestion() {
       </div>
 
       {/* Suggestion Cards */}
-      <div className="bg-[#0F2C24] rounded-3xl px-6 py-5 flex-1 shadow-lg">
+      <div className="bg-[#0F2C24] rounded-3xl px-6 py-5 flex-1 shadow-lg h-64">
         <div className="flex items-center justify-between mb-5">
           <h2 className="text-white text-xl font-bold tracking-wide">
             Suggestions
@@ -44,12 +38,12 @@ export default function SessionSuggestion() {
           <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
         </div>
 
-        <div className="flex gap-4 justify-start">
+        <div className="flex gap-6 justify-start">
           {suggestions.map((s) => (
             <button
               key={s.label}
               onClick={() => setSelected(s.label)}
-              className={`group w-28 h-36 rounded-2xl p-3 flex flex-col items-center justify-between transition-all duration-300 hover:scale-105 hover:shadow-lg ${
+              className={`group w-36 h-36 rounded-2xl p-3 flex flex-col items-center justify-between transition-all duration-300 hover:scale-105 hover:shadow-lg ${
                 selected === s.label
                   ? "ring-4 ring-blue-400 ring-offset-2 ring-offset-[#0F2C24] bg-white shadow-xl scale-105"
                   : "bg-white/95 hover:bg-white shadow-md"
@@ -79,15 +73,6 @@ export default function SessionSuggestion() {
               </div>
             </button>
           ))}
-        </div>
-
-        <div className="mt-6 pt-4 border-t border-white/10">
-          <p className="text-white/70 text-sm">
-            Selected:{" "}
-            <span className="text-white font-medium capitalize">
-              {selected}
-            </span>
-          </p>
         </div>
       </div>
     </div>
